@@ -1,32 +1,32 @@
-.preNav{
+.preNav {
     background-color: rgb(29, 28, 28);
-    display:grid;
+    display: grid;
     grid-template-columns: 5fr 2fr;
     color: white;
 }
 
-.preNav > div{
+.preNav>div {
     padding: 0 4vmax;
     display: flex;
     align-items: center;
- }
+}
 
- .preNav > div >span{
+.preNav>div>span {
     color: rgba(180, 180, 180, 0.644);
     font-size: 0.8vmax;
     font-weight: 100;
 }
 
-.preNav > div svg{
+.preNav>div svg {
     fill: rgb(180, 180, 180);
 }
 
-.preNav > div svg:hover{
+.preNav>div svg:hover {
     fill: rgb(255, 255, 255);
 }
 
 
-.preNav > div > a{
+.preNav>div>a {
 
     color: rgb(180, 180, 180);
     font-size: 0.9vmax;
@@ -36,6 +36,6 @@
     text-decoration: none;
 }
 
-.preNav > div > a:hover{
+.preNav>div>a:hover {
     color: white;
 }
